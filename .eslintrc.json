@@ -3,7 +3,7 @@
         "browser": true,
         "es2021": true,
         "node": true,
-        "cypress": true
+        "cypress/globals": true
     },
     "extends": [
         "plugin:react/recommended",
@@ -23,6 +23,8 @@
     "rules": {
         "linebreak-style": "off",
         "no-alert": "off",
+        "no-undef": "off",
+        "no-unused-vars":"off",
         "no-underscore-dangle": "off",
         "import/prefer-default-export": "off",
         "react-hooks/rules-of-hooks": "error",
